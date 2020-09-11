@@ -1,7 +1,6 @@
 import java.util.*;
-import java.io.*;
 
-class Solution{
+class Datatypes{
     public static void main(String []argh){
         Scanner sc = new Scanner(System.in);
         int t=sc.nextInt();
@@ -22,5 +21,6 @@ class Solution{
                 System.out.println(sc.next()+" can't be fitted anywhere.");
             }
         }
+        sc.close();
     }
 }

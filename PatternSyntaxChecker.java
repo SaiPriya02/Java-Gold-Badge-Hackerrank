@@ -1,8 +1,7 @@
 import java.util.Scanner;
 import java.util.regex.*;
 
-public class Solution
-{
+public class PatternSyntaxChecker {
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);
 		int testCases = Integer.parseInt(in.nextLine());
@@ -17,6 +16,7 @@ public class Solution
                 System.out.println("Invalid");
             }
             testCases--;
-		}
+        }
+        in.close();
 	}
 }

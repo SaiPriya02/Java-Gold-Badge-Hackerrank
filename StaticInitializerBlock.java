@@ -1,10 +1,6 @@
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
-public class Solution {
+public class StaticInitializerBlock {
 //Write your code here
     static Scanner sc=new Scanner(System.in);
     static int B = sc.nextInt();

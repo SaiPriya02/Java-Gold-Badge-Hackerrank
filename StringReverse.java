@@ -1,7 +1,6 @@
-import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class StringReverse {
 
     public static void main(String[] args) {
         
@@ -18,6 +17,6 @@ public class Solution {
         if(flag==1)
             System.out.println("No");
         else System.out.println("Yes");
-
+        sc.close();
     }
 }

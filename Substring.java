@@ -1,10 +1,6 @@
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
-public class Solution {
+public class Substring {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -13,5 +9,6 @@ public class Solution {
         int end = in.nextInt();
         String sub = S.substring(start,end);
         System.out.println(sub);
+        in.close();
     }
 }
